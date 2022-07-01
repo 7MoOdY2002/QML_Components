@@ -16,19 +16,6 @@ Window {
     height: 1080
     visible: true
     title: qsTr("Hello World")
-    Rectangle {
-        x: 500
-        y: 500
-        width: 100
-        height: 100
-        color: "red"
-        MouseArea {
-            anchors.fill: parent
-            onClicked: {
-                console.log("sa imi bag pula")
-            }
-        }
-    }
 
     Rectangle {
         width: 200
